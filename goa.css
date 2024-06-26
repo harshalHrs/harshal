@@ -1,0 +1,56 @@
+
+h1{
+    text-align: center;
+}
+
+.has{
+    width:1500px;
+    height:658px;
+}
+
+.image{
+
+    display:inline-block;
+    width:48%;
+    height: 250;
+    position: relative;
+    box-shadow: 0 3px 6px 0 rgba(226,32,32,0.16);
+    background-color: white;
+    margin: 14px;
+} 
+
+.image >img{
+    width:500px;
+    height: 350px;
+    margin: 0 29px 0 0;
+}
+
+.text{
+    position: absolute;
+    top:10px;
+    right:75px;
+    width:137px;
+    
+}
+.text > h2{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.text >p{
+    font-family: Poppins;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color:#ab8c9c;
+
+}
